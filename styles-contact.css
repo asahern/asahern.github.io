@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/website-background-01.png)
       center center fixed no-repeat;
     background-size: cover; 
 	
@@ -71,54 +71,54 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	
 	text-align: center;
-	border: 4px dashed white;
+	
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+    margin: 0px auto 20px auto;
+    color: darkcyan;
 }
 
 h2 {
     /* FOLLOWING 3 LINES ARE WHAT YOU PASTE FROM ADOBE */
     
     font-family: hero-new-hairline, sans-serif;
-    font-weight: 100;
+    font-weight: 200;
+    font-size: 40 px;
     font-style: normal;
 
-	font-size: 1.5em;
+	font-size: 4em;
     line-height: 1.4;
-    color: #fff;
+    color: darkcyan;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	font-size: 20 px;
+    line-height: 2;
+    color: darkcyan;
 }
     
     
 nav{
     font-family: hero-new-hairline, sans-serif;
     font-style: normal;
-	font-size: 1.2em;
-    width: 400px;
+	font-size: 2.5em;
+    width: 600px;
     margin: 0 auto;
-    border: dashed pink;
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;
@@ -134,10 +134,10 @@ nav a{
 }
 
 a{
-    color:beige;
+    color:darkcyan;
     text-decoration: nonefont-weight: bold;
 }
 a:hover{
-    color:black;
-    background: pink;
+    color:skyblue;
+    background: white;
 }
