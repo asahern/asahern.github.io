@@ -57,7 +57,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/website_background-01.png)
+  background: url(images/backgroundresized-01.png)
       center center fixed no-repeat;
     background-size: cover; 
 	
@@ -70,12 +70,13 @@ html, body {
     margin: 100px auto;
  	
 	text-align: center;
+    position: relative;
 	
 }
 
    
 #logo {
-    margin-top: -50px;
+    margin-top: 0px;
     margin-bottom: 16px;
 
 	text-align: center;
@@ -83,25 +84,14 @@ html, body {
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
-    margin: 0px auto 20px auto;
-    color: white;
-}
-
-h2 {
-    /* FOLLOWING 3 LINES ARE WHAT YOU PASTE FROM ADOBE */
-    
-    font-family: hero-new, sans-serif;
+    font-family: hero-new-hairline, sans-serif;
     font-weight: 200;
-    font-size: 40 px;
-    font-style: normal;
-
-	font-size: 4em;
-    line-height: 1.4;
+	font-size: 5em;
     color: white;
-    padding: 0px 0px;
-    margin: 600px auto -55px auto;
+    margin-top: 25px;
 }
+
+
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
@@ -112,14 +102,15 @@ p {
     
     
 nav{
-    font-family: hero-new, sans-serif;
+    font-family: hero-new-hairline, sans-serif;
     font-style: normal;
 	font-size: 2.5em;
-    width: 600px;
+    width: 650px;
     margin: 0 auto;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 0px;
+    
 }
 
 nav li{
@@ -128,7 +119,8 @@ nav li{
 
 nav a{
     display:inline-block;
-    padding: 10px;
+    
+    padding: 22px;
 }
 
 a{

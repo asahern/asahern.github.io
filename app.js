@@ -16,7 +16,7 @@ particlesJS('snow-fall',
   {
     "particles": {
       "number": {
-        "value": 200,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
