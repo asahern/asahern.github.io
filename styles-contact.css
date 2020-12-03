@@ -85,10 +85,10 @@ html, body {
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
     font-family: hero-new-hairline, sans-serif;
-    font-weight: 200;
+
 	font-size: 5em;
     color: white;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 
@@ -104,12 +104,12 @@ p {
 nav{
     font-family: hero-new-hairline, sans-serif;
     font-style: normal;
-	font-size: 2.5em;
-    width: 650px;
+	font-size: 3.25em;
+    width: 1000 px;
     margin: 0 auto;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 50px;
     
 }
 
@@ -119,6 +119,7 @@ nav li{
 
 nav a{
     display:inline-block;
+    border-radius: 25px;
     
     padding: 22px;
 }
