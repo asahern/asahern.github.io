@@ -1,0 +1,143 @@
+/*CSS DOCUMENT*/
+
+/* I tweaked this code to make it work better for my layout! 
+*/
+html, body, div, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0;} 
+
+
+img {
+    max-width: 100%;
+    /*Would I use em not % for max-width here? If I take out the 100% my images get HUGE, how would I write it in em?*/
+    display: block;
+}
+
+nav ul {
+	padding 0;
+}
+nav ul li {
+	display: inline;
+	list-style-type: none;
+ 	margin-right: 2%;
+    margin-left: 2%;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.em;
+   
+}
+nav ul li a {
+	color: rgb(20 20 20);
+	text-decoration: none;
+}
+
+a:hover {
+    color: rgb(217 118 175);
+    text-shadow: 0px 0px 10px rgb(231 87 172);
+    /*I know you said not to use px for anything BUT borders, but text-shadow uses px and I used text-shadow to make the links glow when you hover*/
+}
+
+body{
+    background-color:rgb(40,40,40);
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: all-round-gothic, sans-serif;
+	
+}
+    
+}
+
+section{
+    border-top: 1em;
+    border-bottom-color: rgb(217 118 175);
+}
+
+h1{
+    width: 10em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+h2 {
+    color: black;
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: rgb(211 67 152);
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.5em;
+    margin-top: auto;
+    text-align:center;
+    border-bottom: 3px solid;
+    line-height: 0;
+    padding-top: 1em;
+}
+
+h3 span{
+    background: rgb(40 40 40);
+    padding:0 20px;
+}
+
+h4 {
+    color: rgb(217 118 175);
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.75em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+p {
+    color: rgb(230 230 230);
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height: 125%;
+    margin-top: 0;
+    padding-top: 0.25em;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 0;
+}
+
+/* The following is the image overlay for the logo to illuminate when you hover over it. I pieced together bits and pieces of code and I am very proud of the end result! */
+<style>
+div.logo {        
+    position: relatibe;
+    width: 100%;
+    max-width: 400px;
+}
+
+div.logo img.illuminated-logo {
+    opacity: 1;
+    width: 100%;
+    
+}
+
+div.logo img.neon-logo {
+    opacity: 1;
+    max-width: 10em;
+    position: absolute;
+    
+}
+
+div.logo img.neon-logo:hover{
+    opacity: 0;
+}
+</style>
