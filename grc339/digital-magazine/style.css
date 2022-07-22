@@ -276,19 +276,20 @@ a:hover {
 div.gallery{
     margin: 0 auto;
     padding: 1em;
-    max-width: 60em;
+    max-width: 40em;
     
     
 }
 
 div.gallery img{
     width: 100%;
+    
 }
 
             main.gallery {
                 position: relative;
-                overflow: hidden;
                 padding-bottom: calc(100%);
+/*                overflow: hidden;*/
             }
 
             main.gallery figure{
@@ -297,6 +298,7 @@ div.gallery img{
                 position: absolute;
                 opacity: 0;
                 transition: left 1s, opacity 1s;
+                
             }
 
             main.gallery figcaption {
@@ -323,9 +325,10 @@ div.gallery img{
 
             nav.gallery {
                 display: flex;
-                grid-template-columns: (4);
+                
+                grid-template-columns: (10);
                 grid-gap: .2em;
-                padding-top: .2em;
+                padding-top: 6em;
             }
 
 
